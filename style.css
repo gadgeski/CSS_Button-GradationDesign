@@ -29,11 +29,17 @@ Button CSS
 
 ====================================== */
 .container {
+  max-width: 1440px;
+  height: 100vh;
   margin: auto;
   padding: 10rem 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  /* 治らない時は折り返し */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1.5px);
 }
 
 .button {
