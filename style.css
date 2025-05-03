@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ======================================
+
+Button CSS
+
+====================================== */
+.container {
+  max-width: 1440px;
+  height: 100vh;
+  margin: auto;
+  padding: 10rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f8f8ff;
+}
+
+.button {
+  margin: 50px;
+}
+
+.button01 {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 30px;
+  background: #4682b4;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.button01:hover {
+  opacity: 0.8;
+}
