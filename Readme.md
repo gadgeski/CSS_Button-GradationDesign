@@ -1,1 +1,1 @@
-使用技術： JavaScript/CSS/HTML
+使用技術： CSS/HTML
